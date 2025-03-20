@@ -64,7 +64,7 @@ app.post('/login', async (req, res) => {
     res.status(200).json({ message: 'Login successful', user });
 });
 
-// Start server
+// Start the server on port
 const PORT = 3008;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
